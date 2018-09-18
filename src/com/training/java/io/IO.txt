@@ -1,0 +1,40 @@
+Java IO Purposes and Features
+Java IO contains many subclasses of the InputStream, OutputStream, Reader and Writer classes. The reason is, that all of these subclasses are addressing various different purposes. That is why there are so many different classes. The purposes addressed are summarized below:
+
+File Access
+Network Access
+Internal Memory Buffer Access
+Inter-Thread Communication (Pipes)
+Buffering
+Filtering
+Parsing
+Reading and Writing Text (Readers / Writers)
+Reading and Writing Primitive Data (long, int etc.)
+Reading and Writing Objects
+
+
+Some important Byte stream classes.
+ 
+ Stream class								Description
+BufferedOutputStream				Used for Buffered Output Stream.
+DataInputStream						Contains method for reading java standard datatype
+DataOutputStream					An output stream that contain method for writing java standard data type
+FileInputStream						Input stream that reads from a file
+FileOutputStream					Output stream that write to a file.
+InputStream							Abstract class that describe stream input.
+OutputStream						Abstract class that describe stream output.
+PrintStream							Output Stream that contain print() and println() method
+
+Some important Character stream classes.
+ 
+ Stream class								Description
+BufferedReader						Handles buffered input stream.
+BufferedWriter						Handles buffered output stream.
+FileReader							Input stream that reads from file.
+FileWriter							Output stream that writes to file.
+InputStreamReader					Input stream that translate byte to character
+OutputStreamReader					Output stream that translate character to byte.
+PrintWriter							Output Stream that contain print() and println() method.
+Reader								Abstract class that define character stream input
+Writer								Abstract class that define character stream output
+ 	 	 
